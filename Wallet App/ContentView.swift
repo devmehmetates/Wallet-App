@@ -14,24 +14,6 @@ struct ContentView: View {
     @State private var userID = ""
     
     var body: some View {
-//        ZStack{
-//            Circle()
-//                .stroke(.red.opacity(0.3),lineWidth: 10)
-//            Circle()
-//                .trim(from:0 ,to: (self.percentofData/100))
-//                .stroke(.red,lineWidth: 10)
-//                .rotationEffect(Angle.init(degrees: self.percentRotation))
-//                .onAppear {
-//                    withAnimation(.easeInOut(duration: 10)) {
-//                        self.percentofData = 80
-//                    }
-//                    withAnimation(.easeInOut(duration: 2).repeatForever()) {
-//                        self.percentRotation = 180
-//                    }
-//
-//                }
-//        }.padding()
-        
         VStack{
             HStack{
                 Text("Enroll")
